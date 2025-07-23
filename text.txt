@@ -1,0 +1,7 @@
+    for (let forecast of forecasts) {
+      for (let weather of forecast.weather) {
+        if (weather.main.toLowerCase() === "rain") {
+          willRain = true;
+        }
+      }
+    }
